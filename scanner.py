@@ -77,11 +77,13 @@ def calculate_fair_value_band(df, period=20, smoothing=7):
 # ─────────────────────────────────────────────────────────────
 # B-XTRENDER  (PineScript v5 — faithful port)
 #
-# Short-term:  RSI( EMA(close,5) − EMA(close,20), 15 ) − 50
-# Long-term:   RSI( EMA(close,20), 15 ) − 50
-# T3 of short: 6× nested EMA with b=0.7
-# Signal:      T3 line rising  →  bullish (lime)
-#              T3 line falling →  bearish (red)
+# Long-term:   RSI( EMA(close, long_l1), long_l2 ) − 50
+# Signal:      Value rising from previous bar → bullish (increasing)
+#              Value falling → bearish (decreasing)
+#
+# We only track the long-term component (histogram).
+# "Increasing" = the histogram is rising vs previous bar,
+# regardless of whether it's above or below zero (colour).
 # ─────────────────────────────────────────────────────────────
 
 def _rsi(series, period):
@@ -95,53 +97,22 @@ def _rsi(series, period):
     return 100.0 - 100.0 / (1.0 + rs)
 
 
-def _t3(src, length, b=0.7):
-    """Tillson T3 — 6× nested EMA with volume factor b."""
-    e1 = src.ewm(span=length, adjust=False).mean()
-    e2 = e1.ewm(span=length, adjust=False).mean()
-    e3 = e2.ewm(span=length, adjust=False).mean()
-    e4 = e3.ewm(span=length, adjust=False).mean()
-    e5 = e4.ewm(span=length, adjust=False).mean()
-    e6 = e5.ewm(span=length, adjust=False).mean()
-
-    c1 = -(b ** 3)
-    c2 = 3 * b * b + 3 * b * b * b
-    c3 = -6 * b * b - 3 * b - 3 * b * b * b
-    c4 = 1 + 3 * b + b * b * b + 3 * b * b
-    return c1 * e6 + c2 * e5 + c3 * e4 + c4 * e3
-
-
-def calculate_bx_trender(df, short_l1=5, short_l2=20, short_l3=15,
-                         long_l1=20, long_l2=15):
+def calculate_bx_trender(df, long_l1=20, long_l2=15):
     """
-    Returns dict with 'short' and 'long' signals (each 1=bullish, 0=bearish).
-    Short signal: T3 of short-term RSI is rising.
-    Long signal:  long-term value is rising.
+    Returns 1 (increasing) or 0 (decreasing) for the long-term BX component.
+    Bullish = histogram rising from previous bar, regardless of colour.
     """
     if len(df) < 60:
-        return {"short": 0, "long": 0}
+        return 0
 
     close = df["Close"]
 
-    # -- Short-term: RSI(EMA(close,5) - EMA(close,20), 15) - 50 --
-    ema_s1 = close.ewm(span=short_l1, adjust=False).mean()
-    ema_s2 = close.ewm(span=short_l2, adjust=False).mean()
-    short_raw = _rsi(ema_s1 - ema_s2, short_l3) - 50.0
-
-    # T3 of the short-term oscillator (length=5, b=0.7)
-    ma_short = _t3(short_raw, 5, 0.7)
-
-    # Short signal: T3 line rising
-    short_signal = 1 if float(ma_short.iloc[-1]) > float(ma_short.iloc[-2]) else 0
-
-    # -- Long-term: RSI(EMA(close,20), 15) - 50 --
+    # -- Long-term: RSI(EMA(close, long_l1), long_l2) - 50 --
     ema_l1 = close.ewm(span=long_l1, adjust=False).mean()
     long_raw = _rsi(ema_l1, long_l2) - 50.0
 
-    # Long signal: value rising
-    long_signal = 1 if float(long_raw.iloc[-1]) > float(long_raw.iloc[-2]) else 0
-
-    return {"short": short_signal, "long": long_signal}
+    # Signal: value rising from previous bar
+    return 1 if float(long_raw.iloc[-1]) > float(long_raw.iloc[-2]) else 0
 
 
 # ─────────────────────────────────────────────────────────────
@@ -167,7 +138,7 @@ def scan_stock(ticker):
         fvb_m_20 = calculate_fair_value_band(df_m, period=20, smoothing=7)
         fvb_m_33 = calculate_fair_value_band(df_m, period=33, smoothing=7)
 
-        # BX-Trender — weekly & monthly (default params)
+        # BX-Trender — weekly & monthly (long-term only, increasing = bullish)
         bx_w = calculate_bx_trender(df_w)
         bx_m = calculate_bx_trender(df_m)
 
@@ -176,22 +147,20 @@ def scan_stock(ticker):
             "FVB_W_33": fvb_w_33,
             "FVB_M_20": fvb_m_20,
             "FVB_M_33": fvb_m_33,
-            "BX_W_Short": bx_w["short"],
-            "BX_W_Long": bx_w["long"],
-            "BX_M_Short": bx_m["short"],
-            "BX_M_Long": bx_m["long"],
+            "BX_W_Long": bx_w,
+            "BX_M_Long": bx_m,
         }
         total = sum(indicators.values())
         price = round(float(df_w["Close"].iloc[-1]), 2)
 
-        print(f"  {ticker}: {total}/8")
+        print(f"  {ticker}: {total}/6")
         return {
             "ticker": ticker,
             "name": name,
             "price": price,
             "indicators": indicators,
             "total_score": total,
-            "max_score": 8,
+            "max_score": 6,
         }
     except Exception as e:
         print(f"  {ticker}: SKIP ({e})")
@@ -209,7 +178,7 @@ def generate_html(results, timestamp):
     for s in results:
         sc = s["total_score"]
         mx = s["max_score"]
-        cls = "score-high" if sc >= 6 else "score-med" if sc >= 4 else "score-low"
+        cls = "score-high" if sc >= 5 else "score-med" if sc >= 3 else "score-low"
         ind = s["indicators"]
 
         def dot(v):
@@ -222,14 +191,14 @@ def generate_html(results, timestamp):
         rows += f'<td><span class="score-badge {cls}">{sc}/{mx}</span></td>'
         for k in [
             "FVB_W_20","FVB_W_33","FVB_M_20","FVB_M_33",
-            "BX_W_Short","BX_W_Long","BX_M_Short","BX_M_Long",
+            "BX_W_Long","BX_M_Long",
         ]:
             rows += f'<td><span class="indicator {dot(ind[k])}"></span></td>'
         rows += "</tr>\n"
 
-    bull = len([r for r in results if r["total_score"] >= 6])
-    neut = len([r for r in results if 4 <= r["total_score"] < 6])
-    bear = len([r for r in results if r["total_score"] < 4])
+    bull = len([r for r in results if r["total_score"] >= 5])
+    neut = len([r for r in results if 3 <= r["total_score"] < 5])
+    bear = len([r for r in results if r["total_score"] < 3])
     total = len(results)
 
     html = HTML_TEMPLATE
@@ -238,8 +207,7 @@ def generate_html(results, timestamp):
     html = html.replace("{BULLISH}", str(bull))
     html = html.replace("{NEUTRAL}", str(neut))
     html = html.replace("{BEARISH}", str(bear))
-    html = html.replace("{ROWS}", rows)
-    return html
+    return html.replace("{ROWS}", rows)
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -248,7 +216,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0e27;color:#e0e6f0;padding:20px}
-.container{max-width:1600px;margin:0 auto}
+.container{max-width:1400px;margin:0 auto}
 header{text-align:center;margin-bottom:40px;padding:30px 0;border-bottom:2px solid #1a2332}
 h1{font-size:2.5em;margin-bottom:10px;color:#64ffda}
 .last-updated{color:#8892b0;font-size:0.9em}
@@ -257,7 +225,7 @@ h1{font-size:2.5em;margin-bottom:10px;color:#64ffda}
 .stat-label{color:#8892b0;font-size:0.85em;margin-bottom:8px}
 .stat-value{font-size:2em;font-weight:bold;color:#64ffda}
 .table-wrap{overflow-x:auto}
-table{width:100%;background:#1a2332;border-radius:10px;overflow:hidden;border-collapse:collapse;min-width:1100px}
+table{width:100%;background:#1a2332;border-radius:10px;overflow:hidden;border-collapse:collapse;min-width:900px}
 thead{background:#0f1729}
 th{padding:15px;text-align:left;font-weight:600;color:#64ffda;border-bottom:2px solid #2a3548;cursor:pointer;white-space:nowrap}
 th:hover{background:#1a2548}
@@ -281,16 +249,16 @@ tr:hover{background:#0f1729}
 <body>
 <div class="container">
 <header><h1>Stock Scanner Dashboard</h1>
-<p style="color:#8892b0;margin-bottom:5px">Fair Value Band + B-Xtrender | Weekly &amp; Monthly</p>
+<p style="color:#8892b0;margin-bottom:5px">Fair Value Band + B-Xtrender (Long) | Weekly &amp; Monthly</p>
 <div class="last-updated">Last Updated: {TIMESTAMP}</div></header>
 <div class="stats">
 <div class="stat-card"><div class="stat-label">Total Scanned</div><div class="stat-value">{TOTAL}</div></div>
-<div class="stat-card"><div class="stat-label">Bullish (6-8)</div><div class="stat-value" style="color:#10b981">{BULLISH}</div></div>
-<div class="stat-card"><div class="stat-label">Neutral (4-5)</div><div class="stat-value" style="color:#f59e0b">{NEUTRAL}</div></div>
-<div class="stat-card"><div class="stat-label">Bearish (0-3)</div><div class="stat-value" style="color:#ef4444">{BEARISH}</div></div>
+<div class="stat-card"><div class="stat-label">Bullish (5-6)</div><div class="stat-value" style="color:#10b981">{BULLISH}</div></div>
+<div class="stat-card"><div class="stat-label">Neutral (3-4)</div><div class="stat-value" style="color:#f59e0b">{NEUTRAL}</div></div>
+<div class="stat-card"><div class="stat-label">Bearish (0-2)</div><div class="stat-value" style="color:#ef4444">{BEARISH}</div></div>
 </div>
 <div class="controls">
-<div><label>Min Score</label><select id="minScore"><option value="0">All</option><option value="4">4+</option><option value="5">5+</option><option value="6">6+</option><option value="7">7+</option><option value="8">8/8</option></select></div>
+<div><label>Min Score</label><select id="minScore"><option value="0">All</option><option value="3">3+</option><option value="4">4+</option><option value="5">5+</option><option value="6">6/6</option></select></div>
 <div><label>Search</label><input type="text" id="search" placeholder="Ticker or name..."></div>
 </div>
 <div class="table-wrap">
@@ -300,9 +268,7 @@ tr:hover{background:#0f1729}
 <th><span class="section-label">FVB</span>W 33</th>
 <th><span class="section-label">FVB</span>M 20</th>
 <th><span class="section-label">FVB</span>M 33</th>
-<th><span class="section-label">BX</span>W Short</th>
 <th><span class="section-label">BX</span>W Long</th>
-<th><span class="section-label">BX</span>M Short</th>
 <th><span class="section-label">BX</span>M Long</th>
 </tr></thead>
 <tbody id="tbody">
@@ -363,8 +329,8 @@ def main():
         )
 
     print("Dashboard generated: docs/index.html")
-    bull = len([r for r in results if r["total_score"] >= 6])
-    print(f"Bullish (6+/8): {bull}")
+    bull = len([r for r in results if r["total_score"] >= 5])
+    print(f"Bullish (5+/6): {bull}")
 
 
 if __name__ == "__main__":

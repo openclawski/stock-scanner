@@ -1,7 +1,7 @@
 name: Update Scanner
 on:
   schedule:
-    - cron: '0 6 * * 1-5'
+    - cron: '0 1 * * 2-6'
   workflow_dispatch:
 
 permissions:

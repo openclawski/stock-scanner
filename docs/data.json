@@ -1,0 +1,456 @@
+{
+  "timestamp": "2026-02-14 15:29:13 UTC",
+  "total_scanned": 30,
+  "results": [
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc.",
+      "price": 133.89,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 1,
+        "BX_M": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "PG",
+      "name": "The Procter & Gamble Company",
+      "price": 160.07,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 1,
+        "BX_M": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer Inc.",
+      "price": 27.58,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 1,
+        "BX_M": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "price": 481.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 1,
+        "BX_M": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "HD",
+      "name": "The Home Depot, Inc.",
+      "price": 391.05,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "price": 148.45,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation",
+      "price": 1018.48,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie Inc.",
+      "price": 231.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 1,
+        "BX_M": 0
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "price": 305.72,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 182.81,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 1,
+        "BX_M": 0
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "price": 76.85,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 255.78,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "price": 417.44,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America Corporation",
+      "price": 52.55,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast Corporation",
+      "price": 31.57,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 1
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "price": 639.77,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 2,
+      "max_score": 6
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "price": 314.08,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 1
+      },
+      "total_score": 2,
+      "max_score": 6
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "price": 302.55,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 2,
+      "max_score": 6
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard Incorporated",
+      "price": 518.36,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 1
+      },
+      "total_score": 2,
+      "max_score": 6
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "price": 112.68,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 1,
+        "BX_M": 1
+      },
+      "total_score": 2,
+      "max_score": 6
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 198.79,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 1,
+      "max_score": 6
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "price": 293.19,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 1,
+        "BX_M": 0
+      },
+      "total_score": 1,
+      "max_score": 6
+    },
+    {
+      "ticker": "DIS",
+      "name": "The Walt Disney Company",
+      "price": 105.45,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 1,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 1,
+      "max_score": 6
+    },
+    {
+      "ticker": "NKE",
+      "name": "NIKE, Inc.",
+      "price": 63.13,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 1
+      },
+      "total_score": 1,
+      "max_score": 6
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 401.32,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "price": 263.97,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "price": 189.72,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "price": 76.87,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific Inc.",
+      "price": 504.82,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture plc",
+      "price": 224.23,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W": 0,
+        "BX_M": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    }
+  ]
+}

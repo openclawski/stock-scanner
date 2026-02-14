@@ -11,21 +11,53 @@ import os
 # ─────────────────────────────────────────────────────────────
 
 def get_stock_universe():
-    """Get S&P 500 tickers from Wikipedia, fallback to top 30."""
-    try:
-        sp500 = pd.read_html(
-            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-        )[0]
-        tickers = sp500["Symbol"].str.replace(".", "-", regex=False).tolist()
-        return tickers[:500]
-    except Exception as e:
-        print(f"Wikipedia fetch failed: {e}")
-        return [
-            "AAPL","MSFT","GOOGL","AMZN","NVDA","META","TSLA","V","JPM","WMT",
-            "MA","PG","UNH","HD","DIS","BAC","ADBE","CRM","NFLX","CMCSA",
-            "XOM","PFE","COST","ABBV","TMO","CSCO","ABT","ACN","NKE","LIN",
-        ]
-
+    """Top ~440 global stocks by market cap (US, UK, EU, Asia, LatAm, Canada)."""
+    return [
+        "AAPL","MSFT","GOOGL","AMZN","NVDA","META","TSLA","BRK-B","V","JPM",
+        "WMT","MA","PG","UNH","HD","DIS","BAC","ADBE","CRM","NFLX",
+        "CMCSA","XOM","PFE","COST","ABBV","TMO","CSCO","ABT","ACN","NKE",
+        "LIN","MRK","AVGO","KO","PEP","WFC","INTC","QCOM","TXN","CVX",
+        "DHR","PM","ORCL","RTX","HON","AMGN","NEE","LOW","UPS","MDT",
+        "BA","GS","BLK","SPGI","CAT","GE","DE","SYK","ELV","ISRG",
+        "ADP","BKNG","MDLZ","CI","NOW","MMC","LMT","MO","CB","GILD",
+        "AMT","BMY","TJX","SLB","VRTX","USB","PLD","ZTS","SO","DUK",
+        "CL","ICE","CME","TGT","BDX","AON","NOC","ITW","CSX","EMR",
+        "FDX","SHW","PNC","REGN","HUM","MCK","APD","ETN","NSC","WM",
+        "ECL","ATVI","GD","PSA","ROP","AEP","D","KMB","MNST","ORLY",
+        "SRE","ADSK","AIG","MET","SPG","FTNT","F","GM","AFL","AZO",
+        "TEL","TRV","HCA","EW","ILMN","DXCM","MRNA","A","MSCI","IDXX",
+        "RSG","DD","YUM","OTIS","CARR","DOW","STZ","PPG","PAYX","FAST",
+        "GIS","CTAS","WEC","DTE","ES","AEE","PEAK","BKR","FANG","DVN",
+        "HAL","OXY","MPC","VLO","PSX","EOG","COP","HES","TRGP","KMI",
+        "WMB","OKE","LNG","ET","EPD","MLP","CTVA","FMC","CF","MOS",
+        "NUE","STLD","CLF","X","AA","FCX","SCCO","RIO","BHP","VALE",
+        "SNAP","PINS","ROKU","UBER","LYFT","DASH","ABNB","SQ","PYPL","SHOP",
+        "SNOW","PLTR","CRWD","DDOG","NET","ZS","MDB","TEAM","HUBS","WDAY",
+        "TTD","COIN","MELI","SE","NU","GRAB","BILL","CFLT","ESTC","SAMSARA",
+        "PATH","OKTA","ZI","TWLO","GTLB","DOCN","BRZE","HCP","IOT","AI",
+        "SMCI","ARM","MRVL","ON","NXPI","MPWR","ENTG","LRCX","KLAC","AMAT",
+        "ASML","TSM","MU","ADI","MCHP","SWKS","QRVO","WOLF","CRUS","SLAB",
+        "LULU","DECK","BIRD","CROX","SKX","TPR","RL","CPRI","VFC","HBI",
+        "CMG","SBUX","MCD","DPZ","WING","CAVA","SHAK","QSR","WEN","DRI",
+        "EAT","TXRH","CAKE","BJRI","LW","USFD","SYY","PFGC","CHEF","PANW",
+        "CHKP","CYBR","QLYS","TENB","VRNS","RPD","S","AKAM","ANET","JNPR",
+        "CIEN","LITE","VIAV","INFN","CALX","EXTR","HPE","NTAP","PSTG","DELL",
+        "STX","WDC","SMTC","AMKR","COHR","IPGP","NOVT","SHEL","BP","AZN",
+        "GSK","HSBA.L","ULVR.L","RIO.L","BHP.L","VOD.L","BATS.L","LSEG.L","REL.L","DGE.L",
+        "NG.L","SSE.L","BARC.L","LLOY.L","NWG.L","STAN.L","ANTO.L","SAP","NVO","LLY",
+        "SNY","DEO","UL","BTI","NVS","RHHBY","ABB","LOGI","SREN.SW","ROG.SW",
+        "NESN.SW","ABI.BR","OR.PA","MC.PA","SU.PA","AI.PA","TTE","BN.PA","SAF.PA","AIR.PA",
+        "SIE.DE","ALV.DE","MBG.DE","BMW.DE","BAS.DE","DTE.DE","MUV2.DE","SAP.DE","ADS.DE","HEN3.DE",
+        "TM","SONY","HMC","MUFG","NMR","SMFG","MFG","IX","CAJ","SNE",
+        "BABA","JD","PDD","BIDU","NIO","XPEV","LI","TCOM","ZTO","YUMC",
+        "TME","BILI","IQ","VNET","MNSO","GDS","KC","FUTU","TIGR","DIDI",
+        "INFY","WIT","HDB","IBN","SIFY","RDY","TTM","VEDL","WNS","MMYT",
+        "005930.KS","000660.KS","035420.KS","051910.KS","006400.KS","CSL","WDS","FMG.AX","CBA.AX","NAB.AX",
+        "WBC.AX","ANZ.AX","MQG.AX","RY","TD","BNS","BMO","CM","ENB","TRP",
+        "CNQ","SU","CP","CNI","OTEX","MFC","SLF","GWO","FFH","NTR",
+        "ABX","AEM","PBR","ITUB","BBD","ABEV","BRKR","STNE","PAGS","XP",
+        "ERJ","UMC","ASX","GLOB","DL","BEKE","VIPS",
+    ]
 
 # ─────────────────────────────────────────────────────────────
 # FAIR VALUE BAND  (PineScript v6 — faithful port)

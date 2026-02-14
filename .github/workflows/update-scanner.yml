@@ -1,0 +1,26 @@
+name: Update Scanner
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run scanner
+        run: python scanner.py
+      - name: Commit results
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "Scanner Bot"
+          git add docs/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update scan data"
+          git push

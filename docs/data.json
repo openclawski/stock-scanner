@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-14 15:58:49 UTC",
-  "total_scanned": 661,
+  "timestamp": "2026-02-17 05:39:40 UTC",
+  "total_scanned": 718,
   "results": [
     {
       "ticker": "ABBV",
@@ -2060,7 +2060,7 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 182.81,
+      "price": 182.78,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3035,7 +3035,7 @@
     {
       "ticker": "AAL.L",
       "name": "Anglo American plc",
-      "price": 3586.0,
+      "price": 3578.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3050,7 +3050,7 @@
     {
       "ticker": "ANTO.L",
       "name": "Antofagasta plc",
-      "price": 3711.0,
+      "price": 3746.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3065,7 +3065,7 @@
     {
       "ticker": "AZN.L",
       "name": "AstraZeneca PLC",
-      "price": 15118.0,
+      "price": 15160.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3080,7 +3080,7 @@
     {
       "ticker": "BA.L",
       "name": "BAE Systems plc",
-      "price": 1968.0,
+      "price": 2029.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3095,7 +3095,7 @@
     {
       "ticker": "BARC.L",
       "name": "Barclays PLC",
-      "price": 454.0,
+      "price": 461.05,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3110,7 +3110,7 @@
     {
       "ticker": "BATS.L",
       "name": "British American Tobacco p.l.c.",
-      "price": 4354.0,
+      "price": 4305.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3125,7 +3125,7 @@
     {
       "ticker": "BP.L",
       "name": "BP p.l.c.",
-      "price": 461.0,
+      "price": 465.75,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3140,7 +3140,7 @@
     {
       "ticker": "BT-A.L",
       "name": "BT Group plc",
-      "price": 210.3,
+      "price": 206.7,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3170,7 +3170,7 @@
     {
       "ticker": "CNA.L",
       "name": "Centrica plc",
-      "price": 191.45,
+      "price": 193.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3185,7 +3185,7 @@
     {
       "ticker": "CRH.L",
       "name": "CRH plc",
-      "price": 9170.0,
+      "price": 9218.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3200,7 +3200,7 @@
     {
       "ticker": "FCIT.L",
       "name": "F&C Investment Trust Ord",
-      "price": 1255.0,
+      "price": 1258.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3215,7 +3215,7 @@
     {
       "ticker": "FRES.L",
       "name": "Fresnillo plc",
-      "price": 3858.0,
+      "price": 3814.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3230,7 +3230,7 @@
     {
       "ticker": "GSK.L",
       "name": "GSK plc",
-      "price": 2165.0,
+      "price": 2184.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3245,7 +3245,7 @@
     {
       "ticker": "HLMA.L",
       "name": "Halma plc",
-      "price": 3876.0,
+      "price": 3870.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3260,7 +3260,7 @@
     {
       "ticker": "HSBA.L",
       "name": "HSBC Holdings plc",
-      "price": 1238.6,
+      "price": 1251.2,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3275,7 +3275,7 @@
     {
       "ticker": "IAG.L",
       "name": "International Consolidated Airlines Group S.A.",
-      "price": 434.0,
+      "price": 438.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3290,7 +3290,7 @@
     {
       "ticker": "IHG.L",
       "name": "InterContinental Hotels Group PLC",
-      "price": 146.4,
+      "price": 144.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3305,22 +3305,7 @@
     {
       "ticker": "IMB.L",
       "name": "Imperial Brands PLC",
-      "price": 3288.0,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 6,
-      "max_score": 6
-    },
-    {
-      "ticker": "ITV.L",
-      "name": "ITV plc",
-      "price": 80.5,
+      "price": 3219.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3335,7 +3320,7 @@
     {
       "ticker": "KGF.L",
       "name": "Kingfisher plc",
-      "price": 362.5,
+      "price": 358.8,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3350,7 +3335,7 @@
     {
       "ticker": "LGEN.L",
       "name": "Legal & General Group Plc",
-      "price": 268.6,
+      "price": 269.6,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3365,7 +3350,7 @@
     {
       "ticker": "LLOY.L",
       "name": "Lloyds Banking Group plc",
-      "price": 100.4,
+      "price": 101.4,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3380,7 +3365,7 @@
     {
       "ticker": "MRO.L",
       "name": "Melrose Industries PLC",
-      "price": 642.0,
+      "price": 667.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3395,7 +3380,7 @@
     {
       "ticker": "NG.L",
       "name": "National Grid plc",
-      "price": 1366.0,
+      "price": 1373.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3410,7 +3395,7 @@
     {
       "ticker": "PHNX.L",
       "name": "Phoenix Group Holdings plc",
-      "price": 738.5,
+      "price": 746.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3425,7 +3410,7 @@
     {
       "ticker": "RIO.L",
       "name": "Rio Tinto Group",
-      "price": 7187.0,
+      "price": 7111.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3440,7 +3425,7 @@
     {
       "ticker": "RKT.L",
       "name": "Reckitt Benckiser Group plc",
-      "price": 6468.0,
+      "price": 6420.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3455,7 +3440,7 @@
     {
       "ticker": "RR.L",
       "name": "Rolls-Royce Holdings plc",
-      "price": 1271.0,
+      "price": 1298.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3470,7 +3455,7 @@
     {
       "ticker": "SBRY.L",
       "name": "J Sainsbury plc",
-      "price": 352.2,
+      "price": 353.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3485,7 +3470,7 @@
     {
       "ticker": "SDR.L",
       "name": "Schroders plc",
-      "price": 585.5,
+      "price": 585.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3500,7 +3485,7 @@
     {
       "ticker": "SHEL.L",
       "name": "Shell plc",
-      "price": 2872.5,
+      "price": 2865.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3515,7 +3500,7 @@
     {
       "ticker": "SMIN.L",
       "name": "Smiths Group plc",
-      "price": 2616.0,
+      "price": 2606.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3530,7 +3515,22 @@
     {
       "ticker": "SMT.L",
       "name": "Scottish Mortgage Ord",
-      "price": 1210.5,
+      "price": 1205.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "SN.L",
+      "name": "Smith & Nephew plc",
+      "price": 1320.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3545,7 +3545,7 @@
     {
       "ticker": "SSE.L",
       "name": "SSE plc",
-      "price": 2641.0,
+      "price": 2607.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3560,7 +3560,7 @@
     {
       "ticker": "STAN.L",
       "name": "Standard Chartered PLC",
-      "price": 1718.5,
+      "price": 1741.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3575,7 +3575,7 @@
     {
       "ticker": "SVT.L",
       "name": "Severn Trent PLC",
-      "price": 3202.0,
+      "price": 3212.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3590,7 +3590,7 @@
     {
       "ticker": "TSCO.L",
       "name": "Tesco PLC",
-      "price": 488.7,
+      "price": 489.3,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3605,7 +3605,7 @@
     {
       "ticker": "ULVR.L",
       "name": "Unilever PLC",
-      "price": 5432.0,
+      "price": 5420.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3620,7 +3620,7 @@
     {
       "ticker": "UU.L",
       "name": "United Utilities Group PLC",
-      "price": 1363.0,
+      "price": 1369.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3635,7 +3635,7 @@
     {
       "ticker": "VOD.L",
       "name": "Vodafone Group Public Limited Company",
-      "price": 114.15,
+      "price": 114.2,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3650,7 +3650,7 @@
     {
       "ticker": "WEIR.L",
       "name": "The Weir Group PLC",
-      "price": 3468.0,
+      "price": 3510.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3665,7 +3665,7 @@
     {
       "ticker": "BAS.DE",
       "name": "BASF SE",
-      "price": 51.08,
+      "price": 50.76,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3680,7 +3680,7 @@
     {
       "ticker": "BMW.DE",
       "name": "Bayerische Motoren Werke Aktiengesellschaft",
-      "price": 88.9,
+      "price": 89.48,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3695,7 +3695,7 @@
     {
       "ticker": "CON.DE",
       "name": "Continental Aktiengesellschaft",
-      "price": 73.84,
+      "price": 73.8,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3710,7 +3710,22 @@
     {
       "ticker": "DHL.DE",
       "name": "Deutsche Post AG",
-      "price": 49.18,
+      "price": 48.92,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "DTE.DE",
+      "name": "Deutsche Telekom AG",
+      "price": 32.97,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3725,7 +3740,7 @@
     {
       "ticker": "EOAN.DE",
       "name": "E.ON SE",
-      "price": 18.57,
+      "price": 18.67,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3740,7 +3755,7 @@
     {
       "ticker": "FRE.DE",
       "name": "Fresenius SE & Co. KGaA",
-      "price": 50.66,
+      "price": 51.12,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3755,7 +3770,7 @@
     {
       "ticker": "IFX.DE",
       "name": "Infineon Technologies AG",
-      "price": 43.51,
+      "price": 43.22,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3770,7 +3785,7 @@
     {
       "ticker": "KGX.DE",
       "name": "KION GROUP AG",
-      "price": 64.35,
+      "price": 65.4,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3785,7 +3800,7 @@
     {
       "ticker": "MTX.DE",
       "name": "MTU Aero Engines AG",
-      "price": 394.4,
+      "price": 395.6,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3800,7 +3815,7 @@
     {
       "ticker": "QIA.DE",
       "name": "Qiagen N.V.",
-      "price": 43.28,
+      "price": 42.9,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3815,22 +3830,7 @@
     {
       "ticker": "RWE.DE",
       "name": "RWE Aktiengesellschaft",
-      "price": 49.95,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 6,
-      "max_score": 6
-    },
-    {
-      "ticker": "SIE.DE",
-      "name": "Siemens Aktiengesellschaft",
-      "price": 251.05,
+      "price": 50.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3845,7 +3845,7 @@
     {
       "ticker": "VOW3.DE",
       "name": "Volkswagen AG",
-      "price": 103.1,
+      "price": 102.3,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3860,7 +3860,7 @@
     {
       "ticker": "AC.PA",
       "name": "Accor SA",
-      "price": 49.22,
+      "price": 49.25,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3875,7 +3875,7 @@
     {
       "ticker": "ALO.PA",
       "name": "Alstom SA",
-      "price": 28.7,
+      "price": 28.99,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3890,7 +3890,7 @@
     {
       "ticker": "BNP.PA",
       "name": "BNP Paribas SA",
-      "price": 89.4,
+      "price": 90.84,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3905,7 +3905,7 @@
     {
       "ticker": "CA.PA",
       "name": "Carrefour SA",
-      "price": 15.68,
+      "price": 15.52,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3920,7 +3920,7 @@
     {
       "ticker": "DG.PA",
       "name": "Vinci SA",
-      "price": 135.3,
+      "price": 136.65,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3935,7 +3935,7 @@
     {
       "ticker": "EN.PA",
       "name": "Bouygues SA",
-      "price": 49.07,
+      "price": 50.22,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3950,7 +3950,7 @@
     {
       "ticker": "ENGI.PA",
       "name": "Engie SA",
-      "price": 26.09,
+      "price": 26.29,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3965,7 +3965,7 @@
     {
       "ticker": "ERF.PA",
       "name": "Eurofins Scientific SE",
-      "price": 65.46,
+      "price": 64.56,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3980,7 +3980,7 @@
     {
       "ticker": "GLE.PA",
       "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Soci\u00e9t\u00e9 anonyme",
-      "price": 66.7,
+      "price": 68.64,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -3995,7 +3995,7 @@
     {
       "ticker": "HO.PA",
       "name": "Thales S.A.",
-      "price": 245.2,
+      "price": 251.4,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4010,7 +4010,22 @@
     {
       "ticker": "LR.PA",
       "name": "Legrand SA",
-      "price": 149.25,
+      "price": 150.4,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "OR.PA",
+      "name": "L'Or\u00e9al S.A.",
+      "price": 385.05,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4025,7 +4040,7 @@
     {
       "ticker": "ORA.PA",
       "name": "Orange S.A.",
-      "price": 17.16,
+      "price": 17.3,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4040,7 +4055,7 @@
     {
       "ticker": "SAF.PA",
       "name": "Safran SA",
-      "price": 332.8,
+      "price": 338.2,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4055,7 +4070,7 @@
     {
       "ticker": "SU.PA",
       "name": "Schneider Electric S.E.",
-      "price": 262.9,
+      "price": 257.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4070,7 +4085,7 @@
     {
       "ticker": "TTE.PA",
       "name": "TotalEnergies SE",
-      "price": 64.38,
+      "price": 64.16,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4085,22 +4100,7 @@
     {
       "ticker": "VIE.PA",
       "name": "Veolia Environnement SA",
-      "price": 33.45,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 6,
-      "max_score": 6
-    },
-    {
-      "ticker": "6501.T",
-      "name": "Hitachi, Ltd.",
-      "price": 5209.0,
+      "price": 34.06,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4115,7 +4115,7 @@
     {
       "ticker": "6503.T",
       "name": "Mitsubishi Electric Corporation",
-      "price": 5590.0,
+      "price": 5428.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4130,7 +4130,7 @@
     {
       "ticker": "6504.T",
       "name": "Fuji Electric Co., Ltd.",
-      "price": 11265.0,
+      "price": 11360.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4145,7 +4145,7 @@
     {
       "ticker": "6508.T",
       "name": "Meidensha Corporation",
-      "price": 6790.0,
+      "price": 6900.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4160,7 +4160,7 @@
     {
       "ticker": "6586.T",
       "name": "Makita Corporation",
-      "price": 5930.0,
+      "price": 5973.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4175,7 +4175,7 @@
     {
       "ticker": "6703.T",
       "name": "Oki Electric Industry Co., Ltd.",
-      "price": 2717.0,
+      "price": 2734.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4190,7 +4190,7 @@
     {
       "ticker": "6723.T",
       "name": "Renesas Electronics Corporation",
-      "price": 2940.0,
+      "price": 2925.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4205,7 +4205,7 @@
     {
       "ticker": "6752.T",
       "name": "Panasonic Holdings Corporation",
-      "price": 2430.0,
+      "price": 2344.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4220,7 +4220,7 @@
     {
       "ticker": "6770.T",
       "name": "Alps Alpine Co., Ltd.",
-      "price": 2165.0,
+      "price": 2173.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4235,7 +4235,7 @@
     {
       "ticker": "6841.T",
       "name": "Yokogawa Electric Corporation",
-      "price": 4984.0,
+      "price": 5100.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4250,7 +4250,7 @@
     {
       "ticker": "6857.T",
       "name": "Advantest Corporation",
-      "price": 27130.0,
+      "price": 26655.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4265,7 +4265,7 @@
     {
       "ticker": "6902.T",
       "name": "DENSO Corporation",
-      "price": 2234.0,
+      "price": 2242.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4280,7 +4280,7 @@
     {
       "ticker": "6952.T",
       "name": "Casio Computer Co.,Ltd.",
-      "price": 1599.5,
+      "price": 1566.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -4295,7 +4295,697 @@
     {
       "ticker": "6954.T",
       "name": "Fanuc Corporation",
-      "price": 6445.0,
+      "price": 6491.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "6963.T",
+      "name": "ROHM Co., Ltd.",
+      "price": 2477.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "6971.T",
+      "name": "Kyocera Corporation",
+      "price": 2593.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "6976.T",
+      "name": "Taiyo Yuden Co., Ltd.",
+      "price": 4103.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7003.T",
+      "name": "MITSUI E&S Co., Ltd.",
+      "price": 7197.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7004.T",
+      "name": "Kanadevia Corporation",
+      "price": 1081.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7011.T",
+      "name": "Mitsubishi Heavy Industries, Ltd.",
+      "price": 4790.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7012.T",
+      "name": "Kawasaki Heavy Industries, Ltd.",
+      "price": 16915.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7202.T",
+      "name": "Isuzu Motors Limited",
+      "price": 2826.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7203.T",
+      "name": "Toyota Motor Corporation",
+      "price": 3704.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7261.T",
+      "name": "Mazda Motor Corporation",
+      "price": 1371.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7269.T",
+      "name": "Suzuki Motor Corporation",
+      "price": 2325.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7731.T",
+      "name": "Nikon Corporation",
+      "price": 1939.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7735.T",
+      "name": "SCREEN Holdings Co., Ltd.",
+      "price": 20940.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7741.T",
+      "name": "HOYA Corporation",
+      "price": 27395.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7751.T",
+      "name": "Canon Inc.",
+      "price": 4777.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7752.T",
+      "name": "Ricoh Company, Ltd.",
+      "price": 1455.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7762.T",
+      "name": "Citizen Watch Co., Ltd.",
+      "price": 1721.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7911.T",
+      "name": "TOPPAN Holdings Inc.",
+      "price": 4663.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "7912.T",
+      "name": "Dai Nippon Printing Co., Ltd.",
+      "price": 3003.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8001.T",
+      "name": "ITOCHU Corporation",
+      "price": 2142.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8002.T",
+      "name": "Marubeni Corporation",
+      "price": 5724.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8015.T",
+      "name": "Toyota Tsusho Corporation",
+      "price": 6568.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8031.T",
+      "name": "Mitsui & Co., Ltd.",
+      "price": 5447.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8035.T",
+      "name": "Tokyo Electron Limited",
+      "price": 41680.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8053.T",
+      "name": "Sumitomo Corporation",
+      "price": 6547.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8058.T",
+      "name": "Mitsubishi Corporation",
+      "price": 4896.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8233.T",
+      "name": "Takashimaya Company, Limited",
+      "price": 2294.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8252.T",
+      "name": "Marui Group Co., Ltd.",
+      "price": 3159.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8253.T",
+      "name": "Credit Saison Co., Ltd.",
+      "price": 4710.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8267.T",
+      "name": "Aeon Co., Ltd.",
+      "price": 2347.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8304.T",
+      "name": "Aozora Bank, Ltd.",
+      "price": 2810.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial Group, Inc.",
+      "price": 2889.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8308.T",
+      "name": "Resona Holdings, Inc.",
+      "price": 1914.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8309.T",
+      "name": "Sumitomo Mitsui Trust Group, Inc.",
+      "price": 5516.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial Group, Inc.",
+      "price": 5746.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8331.T",
+      "name": "The Chiba Bank, Ltd.",
+      "price": 2271.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8354.T",
+      "name": "Fukuoka Financial Group, Inc.",
+      "price": 6739.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8411.T",
+      "name": "Mizuho Financial Group, Inc.",
+      "price": 7078.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8601.T",
+      "name": "Daiwa Securities Group Inc.",
+      "price": 1599.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8604.T",
+      "name": "Nomura Holdings, Inc.",
+      "price": 1435.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8628.T",
+      "name": "Matsui Securities Co., Ltd.",
+      "price": 940.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8630.T",
+      "name": "Sompo Holdings, Inc.",
+      "price": 5881.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8725.T",
+      "name": "MS&AD Insurance Group Holdings, Inc.",
+      "price": 4191.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8750.T",
+      "name": "Dai-ichi Life Holdings, Inc.",
+      "price": 1521.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine Holdings, Inc.",
+      "price": 6230.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 6,
+      "max_score": 6
+    },
+    {
+      "ticker": "8795.T",
+      "name": "T&D Holdings, Inc.",
+      "price": 4024.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5000,7 +5690,7 @@
     {
       "ticker": "AAF.L",
       "name": "Airtel Africa Plc",
-      "price": 329.6,
+      "price": 336.2,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5015,7 +5705,7 @@
     {
       "ticker": "BLND.L",
       "name": "British Land Company PLC",
-      "price": 403.8,
+      "price": 405.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5030,7 +5720,7 @@
     {
       "ticker": "GLEN.L",
       "name": "Glencore plc",
-      "price": 494.5,
+      "price": 492.9,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5043,9 +5733,24 @@
       "max_score": 6
     },
     {
+      "ticker": "ITV.L",
+      "name": "ITV plc",
+      "price": 78.75,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
       "ticker": "LAND.L",
       "name": "Land Securities Group Plc",
-      "price": 644.0,
+      "price": 650.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5060,7 +5765,7 @@
     {
       "ticker": "MNG.L",
       "name": "M&G plc",
-      "price": 310.9,
+      "price": 313.7,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5075,7 +5780,7 @@
     {
       "ticker": "NWG.L",
       "name": "NatWest Group plc",
-      "price": 580.2,
+      "price": 607.8,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5090,7 +5795,7 @@
     {
       "ticker": "NXT.L",
       "name": "NEXT plc",
-      "price": 12735.0,
+      "price": 12790.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5105,7 +5810,7 @@
     {
       "ticker": "PRU.L",
       "name": "Prudential plc",
-      "price": 1069.0,
+      "price": 1086.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5118,24 +5823,9 @@
       "max_score": 6
     },
     {
-      "ticker": "SN.L",
-      "name": "Smith & Nephew plc",
-      "price": 1325.0,
-      "indicators": {
-        "FVB_W_20": 0,
-        "FVB_W_33": 1,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 5,
-      "max_score": 6
-    },
-    {
       "ticker": "AIR.DE",
       "name": "Airbus SE",
-      "price": 192.4,
+      "price": 197.12,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5150,7 +5840,7 @@
     {
       "ticker": "ALV.DE",
       "name": "Allianz SE",
-      "price": 366.9,
+      "price": 369.2,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5165,7 +5855,7 @@
     {
       "ticker": "BAYN.DE",
       "name": "Bayer Aktiengesellschaft",
-      "price": 45.99,
+      "price": 45.94,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5180,7 +5870,7 @@
     {
       "ticker": "DBK.DE",
       "name": "Deutsche Bank Aktiengesellschaft",
-      "price": 29.6,
+      "price": 29.77,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5195,7 +5885,7 @@
     {
       "ticker": "HEI.DE",
       "name": "Heidelberg Materials AG",
-      "price": 188.45,
+      "price": 192.15,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5210,7 +5900,7 @@
     {
       "ticker": "MBG.DE",
       "name": "Mercedes-Benz Group AG",
-      "price": 57.62,
+      "price": 57.65,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5225,7 +5915,22 @@
     {
       "ticker": "RHM.DE",
       "name": "Rheinmetall AG",
-      "price": 1609.0,
+      "price": 1620.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "SIE.DE",
+      "name": "Siemens Aktiengesellschaft",
+      "price": 234.95,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5240,7 +5945,7 @@
     {
       "ticker": "AIR.PA",
       "name": "Airbus SE",
-      "price": 192.42,
+      "price": 197.2,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5255,7 +5960,7 @@
     {
       "ticker": "ML.PA",
       "name": "Compagnie G\u00e9n\u00e9rale des \u00c9tablissements Michelin Soci\u00e9t\u00e9 en commandite par actions",
-      "price": 34.48,
+      "price": 34.13,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5268,9 +5973,9 @@
       "max_score": 6
     },
     {
-      "ticker": "6701.T",
-      "name": "NEC Corporation",
-      "price": 4099.0,
+      "ticker": "6501.T",
+      "name": "Hitachi, Ltd.",
+      "price": 4875.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5285,7 +5990,7 @@
     {
       "ticker": "6702.T",
       "name": "Fujitsu Limited",
-      "price": 3828.0,
+      "price": 3687.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -5300,11 +6005,71 @@
     {
       "ticker": "6762.T",
       "name": "TDK Corporation",
-      "price": 2212.0,
+      "price": 2231.5,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 1,
         "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "7013.T",
+      "name": "IHI Corporation",
+      "price": 3921.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "7267.T",
+      "name": "Honda Motor Co., Ltd.",
+      "price": 1574.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "7270.T",
+      "name": "Subaru Corporation",
+      "price": 3073.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 1
+      },
+      "total_score": 5,
+      "max_score": 6
+    },
+    {
+      "ticker": "7272.T",
+      "name": "Yamaha Motor Co., Ltd.",
+      "price": 1247.5,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
         "FVB_M_33": 1,
         "BX_W_Long": 1,
         "BX_M_Long": 1
@@ -5855,7 +6620,7 @@
     {
       "ticker": "JKHY",
       "name": "Jack Henry & Associates, Inc.",
-      "price": 156.69,
+      "price": 156.76,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6470,7 +7235,7 @@
     {
       "ticker": "AHT.L",
       "name": "Ashtead Group plc",
-      "price": 5234.0,
+      "price": 5140.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6485,7 +7250,7 @@
     {
       "ticker": "AV.L",
       "name": "Aviva plc",
-      "price": 625.8,
+      "price": 627.8,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 1,
@@ -6500,7 +7265,7 @@
     {
       "ticker": "BKG.L",
       "name": "The Berkeley Group Holdings plc",
-      "price": 4434.0,
+      "price": 4302.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6513,39 +7278,9 @@
       "max_score": 6
     },
     {
-      "ticker": "BRBY.L",
-      "name": "Burberry Group plc",
-      "price": 1195.5,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 1,
-        "FVB_M_33": 0,
-        "BX_W_Long": 0,
-        "BX_M_Long": 1
-      },
-      "total_score": 4,
-      "max_score": 6
-    },
-    {
-      "ticker": "PSH.L",
-      "name": "Pershing Square Holdings Ord",
-      "price": 4406.0,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
-        "BX_W_Long": 0,
-        "BX_M_Long": 0
-      },
-      "total_score": 4,
-      "max_score": 6
-    },
-    {
       "ticker": "PSN.L",
       "name": "Persimmon Plc",
-      "price": 1520.0,
+      "price": 1504.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6560,7 +7295,7 @@
     {
       "ticker": "RS1.L",
       "name": "RS Group plc",
-      "price": 724.0,
+      "price": 711.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6575,7 +7310,7 @@
     {
       "ticker": "RTO.L",
       "name": "Rentokil Initial plc",
-      "price": 442.0,
+      "price": 446.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6590,7 +7325,22 @@
     {
       "ticker": "SGRO.L",
       "name": "SEGRO Plc",
-      "price": 794.2,
+      "price": 784.2,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "SKG.L",
+      "name": "Smurfit Westrock Plc",
+      "price": 3595.57,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6605,7 +7355,7 @@
     {
       "ticker": "SPX.L",
       "name": "Spirax Group plc",
-      "price": 7680.0,
+      "price": 7730.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6618,14 +7368,14 @@
       "max_score": 6
     },
     {
-      "ticker": "DTE.DE",
-      "name": "Deutsche Telekom AG",
-      "price": 32.23,
+      "ticker": "BNR.DE",
+      "name": "Brenntag SE",
+      "price": 56.98,
       "indicators": {
-        "FVB_W_20": 0,
-        "FVB_W_33": 0,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
         "BX_W_Long": 1,
         "BX_M_Long": 1
       },
@@ -6635,7 +7385,7 @@
     {
       "ticker": "HEN3.DE",
       "name": "Henkel AG & Co. KGaA",
-      "price": 83.04,
+      "price": 83.26,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6650,7 +7400,7 @@
     {
       "ticker": "LIN.DE",
       "name": "Linde plc",
-      "price": 407.2,
+      "price": 402.6,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 0,
@@ -6663,24 +7413,9 @@
       "max_score": 6
     },
     {
-      "ticker": "MRK.DE",
-      "name": "Merck KGaA",
-      "price": 127.8,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 4,
-      "max_score": 6
-    },
-    {
       "ticker": "AI.PA",
       "name": "L'Air Liquide S.A.",
-      "price": 169.4,
+      "price": 169.26,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -6693,39 +7428,9 @@
       "max_score": 6
     },
     {
-      "ticker": "KER.PA",
-      "name": "Kering SA",
-      "price": 284.35,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 4,
-      "max_score": 6
-    },
-    {
-      "ticker": "OR.PA",
-      "name": "L'Or\u00e9al S.A.",
-      "price": 372.35,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
-        "BX_W_Long": 0,
-        "BX_M_Long": 0
-      },
-      "total_score": 4,
-      "max_score": 6
-    },
-    {
       "ticker": "SGO.PA",
       "name": "Compagnie de Saint-Gobain S.A.",
-      "price": 90.86,
+      "price": 89.26,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -6740,7 +7445,7 @@
     {
       "ticker": "STMPA.PA",
       "name": "STMicroelectronics N.V.",
-      "price": 28.44,
+      "price": 27.85,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6755,7 +7460,7 @@
     {
       "ticker": "6506.T",
       "name": "YASKAWA Electric Corporation",
-      "price": 5224.0,
+      "price": 5270.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6770,7 +7475,7 @@
     {
       "ticker": "6645.T",
       "name": "OMRON Corporation",
-      "price": 4743.0,
+      "price": 4784.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -6783,9 +7488,69 @@
       "max_score": 6
     },
     {
-      "ticker": "6724.T",
-      "name": "Seiko Epson Corporation",
-      "price": 2094.5,
+      "ticker": "6701.T",
+      "name": "NEC Corporation",
+      "price": 4024.0,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 1
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "7201.T",
+      "name": "Nissan Motor Co., Ltd.",
+      "price": 463.3,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "7205.T",
+      "name": "Hino Motors, Ltd.",
+      "price": 471.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "7211.T",
+      "name": "Mitsubishi Motors Corporation",
+      "price": 444.3,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 4,
+      "max_score": 6
+    },
+    {
+      "ticker": "7951.T",
+      "name": "Yamaha Corporation",
+      "price": 1192.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -7098,9 +7863,39 @@
       "max_score": 6
     },
     {
+      "ticker": "BRBY.L",
+      "name": "Burberry Group plc",
+      "price": 1178.0,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 0,
+        "BX_W_Long": 0,
+        "BX_M_Long": 1
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
+      "ticker": "DCC.L",
+      "name": "DCC plc",
+      "price": 5230.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 1
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
       "ticker": "HLN.L",
       "name": "Haleon plc",
-      "price": 409.2,
+      "price": 406.6,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -7115,7 +7910,7 @@
     {
       "ticker": "III.L",
       "name": "3i Group Ord",
-      "price": 3436.0,
+      "price": 3497.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -7128,16 +7923,16 @@
       "max_score": 6
     },
     {
-      "ticker": "SKG.L",
-      "name": "Smurfit Westrock Plc",
-      "price": 3752.0,
+      "ticker": "PSH.L",
+      "name": "Pershing Square Holdings Ord",
+      "price": 4406.0,
       "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 0,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
       },
       "total_score": 3,
       "max_score": 6
@@ -7145,37 +7940,7 @@
     {
       "ticker": "TW.L",
       "name": "Taylor Wimpey plc",
-      "price": 116.5,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 0,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 3,
-      "max_score": 6
-    },
-    {
-      "ticker": "BNR.DE",
-      "name": "Brenntag SE",
-      "price": 58.22,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 0,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 3,
-      "max_score": 6
-    },
-    {
-      "ticker": "DTG.DE",
-      "name": "Daimler Truck Holding AG",
-      "price": 43.1,
+      "price": 113.75,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -7188,14 +7953,14 @@
       "max_score": 6
     },
     {
-      "ticker": "FME.DE",
-      "name": "Fresenius Medical Care AG",
-      "price": 40.95,
+      "ticker": "DTG.DE",
+      "name": "Daimler Truck Holding AG",
+      "price": 42.73,
       "indicators": {
-        "FVB_W_20": 0,
-        "FVB_W_33": 0,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
         "BX_W_Long": 1,
         "BX_M_Long": 0
       },
@@ -7205,7 +7970,7 @@
     {
       "ticker": "HNR1.DE",
       "name": "Hannover R\u00fcck SE",
-      "price": 246.6,
+      "price": 245.8,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -7213,6 +7978,21 @@
         "FVB_M_33": 1,
         "BX_W_Long": 0,
         "BX_M_Long": 1
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
+      "ticker": "MRK.DE",
+      "name": "Merck KGaA",
+      "price": 126.2,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 0
       },
       "total_score": 3,
       "max_score": 6
@@ -7220,7 +8000,7 @@
     {
       "ticker": "MUV2.DE",
       "name": "M\u00fcnchener R\u00fcckversicherungs-Gesellschaft Aktiengesellschaft in M\u00fcnchen",
-      "price": 530.6,
+      "price": 530.8,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -7233,9 +8013,24 @@
       "max_score": 6
     },
     {
+      "ticker": "PUM.DE",
+      "name": "PUMA SE",
+      "price": 23.2,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 0
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
       "ticker": "BN.PA",
       "name": "Danone S.A.",
-      "price": 72.32,
+      "price": 72.6,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -7250,7 +8045,7 @@
     {
       "ticker": "CS.PA",
       "name": "AXA SA",
-      "price": 37.46,
+      "price": 37.73,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -7263,16 +8058,31 @@
       "max_score": 6
     },
     {
-      "ticker": "EL.PA",
-      "name": "EssilorLuxottica Soci\u00e9t\u00e9 anonyme",
-      "price": 258.3,
+      "ticker": "KER.PA",
+      "name": "Kering SA",
+      "price": 270.85,
       "indicators": {
-        "FVB_W_20": 0,
-        "FVB_W_33": 0,
-        "FVB_M_20": 1,
-        "FVB_M_33": 1,
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
         "BX_W_Long": 0,
         "BX_M_Long": 1
+      },
+      "total_score": 3,
+      "max_score": 6
+    },
+    {
+      "ticker": "6724.T",
+      "name": "Seiko Epson Corporation",
+      "price": 2067.0,
+      "indicators": {
+        "FVB_W_20": 1,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 1,
+        "BX_M_Long": 0
       },
       "total_score": 3,
       "max_score": 6
@@ -8000,7 +8810,7 @@
     {
       "ticker": "ADM.L",
       "name": "Admiral Group plc",
-      "price": 2814.0,
+      "price": 2846.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8015,7 +8825,7 @@
     {
       "ticker": "CRDA.L",
       "name": "Croda International Plc",
-      "price": 3056.0,
+      "price": 2997.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 0,
@@ -8028,24 +8838,9 @@
       "max_score": 6
     },
     {
-      "ticker": "DCC.L",
-      "name": "DCC plc",
-      "price": 5280.0,
-      "indicators": {
-        "FVB_W_20": 0,
-        "FVB_W_33": 0,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
-        "BX_M_Long": 1
-      },
-      "total_score": 2,
-      "max_score": 6
-    },
-    {
       "ticker": "INF.L",
       "name": "Informa plc",
-      "price": 828.4,
+      "price": 812.8,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8060,7 +8855,7 @@
     {
       "ticker": "BEI.DE",
       "name": "Beiersdorf Aktiengesellschaft",
-      "price": 106.5,
+      "price": 105.5,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 0,
@@ -8075,7 +8870,7 @@
     {
       "ticker": "DB1.DE",
       "name": "Deutsche B\u00f6rse AG",
-      "price": 218.1,
+      "price": 215.2,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8088,30 +8883,15 @@
       "max_score": 6
     },
     {
-      "ticker": "PAH3.DE",
-      "name": "Porsche Automobil Holding SE",
-      "price": 35.87,
+      "ticker": "FME.DE",
+      "name": "Fresenius Medical Care AG",
+      "price": 40.89,
       "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 0,
-        "BX_M_Long": 0
-      },
-      "total_score": 2,
-      "max_score": 6
-    },
-    {
-      "ticker": "PUM.DE",
-      "name": "PUMA SE",
-      "price": 23.45,
-      "indicators": {
-        "FVB_W_20": 1,
+        "FVB_W_20": 0,
         "FVB_W_33": 0,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
         "BX_M_Long": 0
       },
       "total_score": 2,
@@ -8120,7 +8900,7 @@
     {
       "ticker": "SAP.DE",
       "name": "SAP SE",
-      "price": 171.72,
+      "price": 168.36,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8135,7 +8915,7 @@
     {
       "ticker": "SRT3.DE",
       "name": "Sartorius Aktiengesellschaft",
-      "price": 231.0,
+      "price": 226.0,
       "indicators": {
         "FVB_W_20": 1,
         "FVB_W_33": 1,
@@ -8148,30 +8928,15 @@
       "max_score": 6
     },
     {
-      "ticker": "MC.PA",
-      "name": "LVMH Mo\u00ebt Hennessy - Louis Vuitton, Soci\u00e9t\u00e9 Europ\u00e9enne",
-      "price": 514.2,
-      "indicators": {
-        "FVB_W_20": 1,
-        "FVB_W_33": 1,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 0,
-        "BX_M_Long": 0
-      },
-      "total_score": 2,
-      "max_score": 6
-    },
-    {
-      "ticker": "RMS.PA",
-      "name": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions",
-      "price": 2147.0,
+      "ticker": "EL.PA",
+      "name": "EssilorLuxottica Soci\u00e9t\u00e9 anonyme",
+      "price": 245.7,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
-        "FVB_M_20": 0,
+        "FVB_M_20": 1,
         "FVB_M_33": 1,
-        "BX_W_Long": 1,
+        "BX_W_Long": 0,
         "BX_M_Long": 0
       },
       "total_score": 2,
@@ -8180,7 +8945,37 @@
     {
       "ticker": "6758.T",
       "name": "Sony Group Corporation",
-      "price": 3552.0,
+      "price": 3473.0,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
+      },
+      "total_score": 2,
+      "max_score": 6
+    },
+    {
+      "ticker": "7832.T",
+      "name": "BANDAI NAMCO Holdings Inc.",
+      "price": 4053.0,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 1,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
+      },
+      "total_score": 2,
+      "max_score": 6
+    },
+    {
+      "ticker": "7974.T",
+      "name": "Nintendo Co., Ltd.",
+      "price": 8409.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8630,7 +9425,7 @@
     {
       "ticker": "CPG.L",
       "name": "Compass Group PLC",
-      "price": 2058.0,
+      "price": 2053.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8645,7 +9440,7 @@
     {
       "ticker": "CTEC.L",
       "name": "Convatec Group PLC",
-      "price": 227.8,
+      "price": 226.2,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8660,7 +9455,7 @@
     {
       "ticker": "DGE.L",
       "name": "Diageo plc",
-      "price": 1824.0,
+      "price": 1802.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8675,7 +9470,7 @@
     {
       "ticker": "FLTR.L",
       "name": "Flutter Entertainment plc",
-      "price": 9352.0,
+      "price": 9340.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8688,24 +9483,9 @@
       "max_score": 6
     },
     {
-      "ticker": "MNDI.L",
-      "name": "Mondi plc",
-      "price": 954.6,
-      "indicators": {
-        "FVB_W_20": 0,
-        "FVB_W_33": 0,
-        "FVB_M_20": 0,
-        "FVB_M_33": 0,
-        "BX_W_Long": 1,
-        "BX_M_Long": 0
-      },
-      "total_score": 1,
-      "max_score": 6
-    },
-    {
       "ticker": "PSON.L",
       "name": "Pearson plc",
-      "price": 920.0,
+      "price": 904.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8720,7 +9500,7 @@
     {
       "ticker": "SGE.L",
       "name": "The Sage Group plc",
-      "price": 807.4,
+      "price": 788.2,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8733,9 +9513,24 @@
       "max_score": 6
     },
     {
+      "ticker": "PAH3.DE",
+      "name": "Porsche Automobil Holding SE",
+      "price": 35.56,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
+      },
+      "total_score": 1,
+      "max_score": 6
+    },
+    {
       "ticker": "SY1.DE",
       "name": "Symrise AG",
-      "price": 76.08,
+      "price": 75.14,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8750,7 +9545,7 @@
     {
       "ticker": "VNA.DE",
       "name": "Vonovia SE",
-      "price": 26.11,
+      "price": 26.42,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8763,9 +9558,24 @@
       "max_score": 6
     },
     {
+      "ticker": "MC.PA",
+      "name": "LVMH Mo\u00ebt Hennessy - Louis Vuitton, Soci\u00e9t\u00e9 Europ\u00e9enne",
+      "price": 518.3,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 1,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
+      },
+      "total_score": 1,
+      "max_score": 6
+    },
+    {
       "ticker": "PUB.PA",
       "name": "Publicis Groupe S.A.",
-      "price": 72.74,
+      "price": 71.16,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8780,7 +9590,7 @@
     {
       "ticker": "RI.PA",
       "name": "Pernod Ricard SA",
-      "price": 84.64,
+      "price": 84.94,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8793,9 +9603,24 @@
       "max_score": 6
     },
     {
+      "ticker": "RMS.PA",
+      "name": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions",
+      "price": 2075.16,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 1,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
+      },
+      "total_score": 1,
+      "max_score": 6
+    },
+    {
       "ticker": "6594.T",
       "name": "Nidec Corporation",
-      "price": 2333.0,
+      "price": 2337.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -8810,13 +9635,13 @@
     {
       "ticker": "6861.T",
       "name": "Keyence Corporation",
-      "price": 55590.0,
+      "price": 58080.0,
       "indicators": {
-        "FVB_W_20": 1,
+        "FVB_W_20": 0,
         "FVB_W_33": 0,
         "FVB_M_20": 0,
         "FVB_M_33": 0,
-        "BX_W_Long": 0,
+        "BX_W_Long": 1,
         "BX_M_Long": 0
       },
       "total_score": 1,
@@ -9500,7 +10325,7 @@
     {
       "ticker": "ABF.L",
       "name": "Associated British Foods plc",
-      "price": 1967.0,
+      "price": 1947.5,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9515,7 +10340,7 @@
     {
       "ticker": "AUTO.L",
       "name": "Autotrader Group plc",
-      "price": 459.1,
+      "price": 457.3,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9530,7 +10355,7 @@
     {
       "ticker": "BNZL.L",
       "name": "Bunzl plc",
-      "price": 2132.0,
+      "price": 2108.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9545,7 +10370,7 @@
     {
       "ticker": "ENT.L",
       "name": "Entain Plc",
-      "price": 567.0,
+      "price": 562.8,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9560,7 +10385,7 @@
     {
       "ticker": "EXPN.L",
       "name": "Experian plc",
-      "price": 2538.0,
+      "price": 2471.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9575,7 +10400,7 @@
     {
       "ticker": "HIK.L",
       "name": "Hikma Pharmaceuticals PLC",
-      "price": 1577.0,
+      "price": 1569.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9590,7 +10415,7 @@
     {
       "ticker": "ITRK.L",
       "name": "Intertek Group plc",
-      "price": 4450.0,
+      "price": 4430.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9605,7 +10430,7 @@
     {
       "ticker": "JD.L",
       "name": "JD Sports Fashion Plc",
-      "price": 78.88,
+      "price": 79.12,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9620,7 +10445,22 @@
     {
       "ticker": "LSEG.L",
       "name": "London Stock Exchange Group plc",
-      "price": 7570.0,
+      "price": 7612.0,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    },
+    {
+      "ticker": "MNDI.L",
+      "name": "Mondi plc",
+      "price": 913.8,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9635,7 +10475,7 @@
     {
       "ticker": "OCDO.L",
       "name": "Ocado Group plc",
-      "price": 223.8,
+      "price": 220.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9650,7 +10490,7 @@
     {
       "ticker": "REL.L",
       "name": "RELX PLC",
-      "price": 2257.0,
+      "price": 2174.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9665,7 +10505,7 @@
     {
       "ticker": "RMV.L",
       "name": "Rightmove plc",
-      "price": 430.0,
+      "price": 424.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9680,7 +10520,7 @@
     {
       "ticker": "UTG.L",
       "name": "Unite Group PLC",
-      "price": 583.0,
+      "price": 581.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9695,7 +10535,7 @@
     {
       "ticker": "WPP.L",
       "name": "WPP plc",
-      "price": 272.9,
+      "price": 264.1,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9710,7 +10550,7 @@
     {
       "ticker": "WTB.L",
       "name": "Whitbread plc",
-      "price": 2688.0,
+      "price": 2691.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9725,7 +10565,7 @@
     {
       "ticker": "ADS.DE",
       "name": "adidas AG",
-      "price": 154.95,
+      "price": 154.05,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9740,7 +10580,7 @@
     {
       "ticker": "P911.DE",
       "name": "Dr. Ing. h.c. F. Porsche AG",
-      "price": 41.8,
+      "price": 41.67,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9755,7 +10595,7 @@
     {
       "ticker": "SHL.DE",
       "name": "Siemens Healthineers AG",
-      "price": 40.68,
+      "price": 40.93,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9770,7 +10610,7 @@
     {
       "ticker": "ZAL.DE",
       "name": "Zalando SE",
-      "price": 20.51,
+      "price": 21.14,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9785,7 +10625,7 @@
     {
       "ticker": "ATO.PA",
       "name": "Atos SE",
-      "price": 44.5,
+      "price": 42.97,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9800,7 +10640,7 @@
     {
       "ticker": "CAP.PA",
       "name": "Capgemini SE",
-      "price": 104.85,
+      "price": 101.7,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9815,7 +10655,7 @@
     {
       "ticker": "DSY.PA",
       "name": "Dassault Syst\u00e8mes SE",
-      "price": 17.82,
+      "price": 15.96,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9830,7 +10670,7 @@
     {
       "ticker": "RNO.PA",
       "name": "Renault SA",
-      "price": 32.8,
+      "price": 32.3,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9845,7 +10685,7 @@
     {
       "ticker": "SAN.PA",
       "name": "Sanofi",
-      "price": 77.62,
+      "price": 77.37,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9860,7 +10700,7 @@
     {
       "ticker": "TEP.PA",
       "name": "Teleperformance SE",
-      "price": 51.96,
+      "price": 50.02,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9875,7 +10715,7 @@
     {
       "ticker": "VIV.PA",
       "name": "Vivendi SE",
-      "price": 2.23,
+      "price": 2.15,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9890,7 +10730,7 @@
     {
       "ticker": "WLN.PA",
       "name": "Worldline SA",
-      "price": 1.36,
+      "price": 1.29,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
@@ -9905,7 +10745,22 @@
     {
       "ticker": "6753.T",
       "name": "Sharp Corporation",
-      "price": 678.5,
+      "price": 665.1,
+      "indicators": {
+        "FVB_W_20": 0,
+        "FVB_W_33": 0,
+        "FVB_M_20": 0,
+        "FVB_M_33": 0,
+        "BX_W_Long": 0,
+        "BX_M_Long": 0
+      },
+      "total_score": 0,
+      "max_score": 6
+    },
+    {
+      "ticker": "7733.T",
+      "name": "Olympus Corporation",
+      "price": 1567.0,
       "indicators": {
         "FVB_W_20": 0,
         "FVB_W_33": 0,
